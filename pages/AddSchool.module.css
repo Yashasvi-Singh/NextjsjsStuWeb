@@ -1,0 +1,80 @@
+/* AddSchool.module.css */
+
+.pageWrapper {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e7efee;
+  }
+  
+  .pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+  }
+  
+  .schoolForm {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+    background-color: rgb(93, 237, 237);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .formLabel {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .inputField:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .errorMessage {
+    color: #dc3545;
+    margin-top: 5px;
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
